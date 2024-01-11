@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Saldo"
+    android:orientation="vertical"
+    android:background="#E3DDDD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="#00BFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="40sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:layout_marginBottom="30sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textwelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="6sp"
+                android:text="𝕽𝖕. 1.520.002"
+                android:textColor="@color/white"
+                android:textSize="30sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_remove_red_eye_24"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="-20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="-35dp"
+            android:src="@drawable/baseline_qr_code_scanner_24"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="-75dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/baseline_file_upload_24" />
+
+        <ImageView
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginRight="-280dp"
+            android:layout_marginTop="-80dp"
+            android:src="@drawable/baseline_send_24" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="-40dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PERSONAL DATA"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/S_txt_4"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:id="@+id/nama"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Prabowo 100.000"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ganjar 50.000"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="210dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Purba 200.900"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Token Listrik 101.000"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="350dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pulsa 150.000"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="420dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gopay 150.000"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <include layout="@layout/bottom_sheet_persistent"/>
+
+
+
+</LinearLayout>
+
+
+
+
+

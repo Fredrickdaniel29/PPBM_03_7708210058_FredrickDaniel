@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card.view="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:background="#9087CEEB">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/atas"
+        android:background="@drawable/download">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile" />
+
+
+    <TextView
+        android:id="@+id/yourname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Your email"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailaja"
+        android:layout_below="@id/yourname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:background="#201d1d83"
+        android:text="danielfredrick29@gmail.com"/>
+
+    <TextView
+        android:id="@+id/no_kartu"
+        android:layout_below="@id/emailaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Rekening"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/no_kartu_aja"
+        android:layout_below="@id/no_kartu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:background="#201d1d83"
+        android:text="0976858209"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_below="@id/no_kartu_aja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youre Address"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/alamat_aja"
+        android:layout_below="@id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:background="#201d1d83"
+        android:text="Tangerang, Cipondoh"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat_aja"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#1E90FF"
+        android:text="BACK"
+        app:cornerRadius="10dp"/>
+    <TextView
+        android:id="@+id/customer_service"
+        android:layout_below="@id/alamat_aja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:drawablePadding="15dp"/>
+
+</RelativeLayout>

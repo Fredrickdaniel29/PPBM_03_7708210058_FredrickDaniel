@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="25dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rekening Debet"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/S_txt_4"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:id="@+id/nama"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="0978210056-BNI"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="0978210089-BNI"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="210dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="7130898212-BSI"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="3871128840-MANDIRI"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="350dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="8670599719-BCA"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#E3DDDD"
+
+            app:cardCornerRadius="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="420dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="5445186349-BCA"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10sp"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

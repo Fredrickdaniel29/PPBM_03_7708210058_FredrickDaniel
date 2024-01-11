@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/editText1"
+            android:layout_marginTop="-100dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Prabowo"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginLeft="12sp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/editText1"
+            android:layout_marginTop="-46dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="12sp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="-75dp"
+            android:layout_marginLeft="10sp"
+            android:fontFamily="sans-serif-black"
+            android:hint="+628923000 . Mobile"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

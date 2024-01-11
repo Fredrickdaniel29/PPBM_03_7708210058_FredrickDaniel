@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="50dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username"
+        android:layout_below="@id/Background"
+        android:layout_marginTop="30dp"
+        android:padding="30dp"
+        android:background="#50ffffff"
+        android:textColorHint="#60000000"
+        android:hint="0978210056"
+        android:textEditSidePasteWindowLayout="@drawable/baseline_content_copy_24"
+        android:drawableLeft="@drawable/baseline_content_copy_24"
+        android:drawablePadding="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Saldo"
+        android:id="@+id/btnViewBalance" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer Uang"
+        android:id="@+id/btnTransferMoney" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Transaksi"
+        android:id="@+id/btnTransactionHistory" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/btnLogout" />
+</LinearLayout>
